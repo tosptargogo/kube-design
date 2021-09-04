@@ -1,0 +1,37 @@
+.menu {
+  margin: 0;
+  padding: 8px;
+  min-width: 210px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  list-style: none;
+  box-sizing: border-box;
+  z-index: 100; }
+  .menu-label {
+    padding: 8px 22px; }
+  .menu-item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 8px 22px;
+    border-radius: 4px;
+    font-weight: 600;
+    color: #4a5974;
+    line-height: 20px;
+    cursor: pointer; }
+    .menu-item:hover {
+      background-color: #e3e9ef; }
+    .menu-item-selected {
+      background-color: #eff4f9; }
+    .menu-item:active {
+      background-color: #e3e9ef; }
+    .menu-item-disabled {
+      opacity: 0.5;
+      cursor: not-allowed; }
+    .menu-item > a {
+      flex: 1;
+      padding: 0 12px;
+      margin: -12px;
+      line-height: 32px; }
+  .menu .icon {
+    margin-right: 12px; }

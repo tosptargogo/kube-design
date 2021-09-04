@@ -1,0 +1,109 @@
+@charset "UTF-8";
+.form-item-desc {
+  margin-top: 4px;
+  font-family: "PingFang SC", "Lantinghei SC", "Helvetica Neue", Helvetica, Arial, "Microsoft YaHei", 微软雅黑, STHeitiSC-Light, simsun, 宋体, "WenQuanYi Zen Hei", "WenQuanYi Micro Hei", sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  color: #404e68;
+  color: #79879c; }
+  .form-item-desc a {
+    color: #55bc8a; }
+
+.form-item-control {
+  position: relative; }
+
+.form-item-label {
+  display: block;
+  margin-bottom: 4px;
+  font-family: "PingFang SC", "Lantinghei SC", "Helvetica Neue", Helvetica, Arial, "Microsoft YaHei", 微软雅黑, STHeitiSC-Light, simsun, 宋体, "WenQuanYi Zen Hei", "WenQuanYi Micro Hei", sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  color: #404e68;
+  color: #36435c; }
+
+.form-item-error {
+  margin-top: 4px;
+  font-family: "PingFang SC", "Lantinghei SC", "Helvetica Neue", Helvetica, Arial, "Microsoft YaHei", 微软雅黑, STHeitiSC-Light, simsun, 宋体, "WenQuanYi Zen Hei", "WenQuanYi Micro Hei", sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  color: #404e68;
+  color: #ca2621; }
+
+.form-item-required {
+  margin: 0 6px;
+  font-family: "PingFang SC", "Lantinghei SC", "Helvetica Neue", Helvetica, Arial, "Microsoft YaHei", 微软雅黑, STHeitiSC-Light, simsun, 宋体, "WenQuanYi Zen Hei", "WenQuanYi Micro Hei", sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  color: #404e68;
+  color: #ca2621; }
+
+.form-item .input,
+.form-item .textarea,
+.form-item .select {
+  width: 100%;
+  max-width: 455px; }
+
+.form-item.error-item .input,
+.form-item.error-item .textarea,
+.form-item.error-item .select-control {
+  border: solid 1px #ca2621 !important; }
+  .form-item.error-item .input:focus, .form-item.error-item .input:hover,
+  .form-item.error-item .textarea:focus,
+  .form-item.error-item .textarea:hover,
+  .form-item.error-item .select-control:focus,
+  .form-item.error-item .select-control:hover {
+    border: solid 1px #ca2621 !important;
+    box-shadow: 0 4px 8px 0 rgba(202, 38, 33, 0.2) !important; }
+
+.form-item + .form-item,
+.form-item + .form-group {
+  margin-top: 12px; }
+
+.form-group {
+  margin-bottom: 12px;
+  padding: 11px 16px;
+  border-radius: 4px;
+  border: solid 1px #ccd3db; }
+  .form-group-title {
+    font-weight: 600; }
+    .form-group-title label.checkbox span.label-value {
+      font-weight: 600;
+      padding-left: 11px; }
+  .form-group-desc {
+    font-family: "PingFang SC", "Lantinghei SC", "Helvetica Neue", Helvetica, Arial, "Microsoft YaHei", 微软雅黑, STHeitiSC-Light, simsun, 宋体, "WenQuanYi Zen Hei", "WenQuanYi Micro Hei", sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    color: #79879c; }
+  .form-group-content {
+    padding: 12px;
+    margin: 0 -8px;
+    margin-top: 12px;
+    border-radius: 4px;
+    background-color: #f9fbfd; }
+  .form-group-hide {
+    height: 0;
+    padding: 0;
+    margin: 0;
+    overflow: hidden; }
+  .form-group-checkable .form-group-desc {
+    padding-left: 23px; }

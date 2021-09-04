@@ -1,0 +1,9 @@
+.pagination {
+  display: inline-flex;
+  align-items: center; }
+  .pagination > span {
+    margin: 0 12px; }
+  .pagination .button {
+    height: 32px;
+    padding: 5px 12px;
+    border-radius: 4px; }

@@ -1,0 +1,43 @@
+@charset "UTF-8";
+.textarea {
+  width: 376px;
+  padding: 6px 12px;
+  border-radius: 4px;
+  border: solid 1px #abb4be;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  font-family: "PingFang SC", "Lantinghei SC", "Helvetica Neue", Helvetica, Arial, "Microsoft YaHei", 微软雅黑, STHeitiSC-Light, simsun, 宋体, "WenQuanYi Zen Hei", "WenQuanYi Micro Hei", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  color: #36435c;
+  transition: all 0.3s ease-in-out;
+  outline: none;
+  caret-color: #36435c; }
+  .textarea::-moz-placeholder {
+    font-weight: 400;
+    color: #5f708a; }
+  .textarea:-ms-input-placeholder {
+    font-weight: 400;
+    color: #5f708a; }
+  .textarea::placeholder {
+    font-weight: 400;
+    color: #5f708a; }
+  .textarea:not([readonly]):not([disabled]):hover {
+    border-color: #79879c; }
+  .textarea:not([readonly]):not([disabled]):focus {
+    border-color: #55bc8a; }
+  .textarea[readonly], .textarea[disabled] {
+    background-color: #eff4f9; }
+  .textarea[readonly] {
+    cursor: initial; }
+  .textarea[disabled] {
+    cursor: not-allowed; }
+
+.textareaAuto {
+  height: auto;
+  overflow: hidden;
+  transition: height 0s; }

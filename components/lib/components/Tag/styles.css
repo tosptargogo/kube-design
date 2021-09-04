@@ -1,0 +1,23 @@
+.tag {
+  display: inline-block;
+  height: 20px;
+  padding: 0 4px;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 600;
+  border-radius: 2px; }
+  .tag-default {
+    color: #ffffff;
+    background-color: #242e42; }
+  .tag-secondary {
+    color: #36435c;
+    background-color: #e3e9ef; }
+  .tag-warning {
+    color: #8d663e;
+    background-color: #ffe1be; }
+  .tag-primary {
+    color: #3b747a;
+    background-color: #c4e6d4; }
+  .tag-info {
+    color: #326e93;
+    background-color: #c7deef; }

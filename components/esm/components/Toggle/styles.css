@@ -1,0 +1,77 @@
+.toggle {
+  position: relative;
+  display: inline-block;
+  height: 20px;
+  min-width: 40px;
+  border-radius: 100px;
+  background-color: #d8dee5;
+  vertical-align: middle;
+  line-height: 20px;
+  transition: all 0.36s;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none; }
+  .toggle:hover:after {
+    background-color: #eff4f9; }
+  .toggle.disabled {
+    opacity: 0.5;
+    cursor: not-allowed; }
+    .toggle.disabled:before {
+      position: absolute;
+      min-width: 44px;
+      height: 24px;
+      line-height: 20px;
+      content: " ";
+      pointer-events: none;
+      z-index: 5; }
+    .toggle.disabled:after {
+      cursor: not-allowed;
+      pointer-events: none; }
+    .toggle.disabled:active:after {
+      width: 18px;
+      pointer-events: none; }
+  .toggle.checked {
+    background-color: #55bc8a; }
+    .toggle.checked:hover {
+      background-color: #479e88; }
+    .toggle.checked:active {
+      background-color: #3b747a; }
+    .toggle.checked:after {
+      left: 100%;
+      transform: translateX(calc(-100% - 5px)) translateY(-50%); }
+    .toggle.checked:hover:after {
+      background-color: #eff4f9; }
+    .toggle.checked:active:after {
+      transform: translateX(calc(-100% - 5px)) translateY(-50%); }
+    .toggle.checked:hover:active:after {
+      background-color: #eff4f9; }
+  .toggle:after {
+    position: absolute;
+    top: 50%;
+    width: 12px;
+    height: 12px;
+    left: 5px;
+    border-radius: 18px;
+    margin-left: 0;
+    background-color: #ffffff;
+    box-shadow: 0 1px 2px 0 rgba(0, 41, 27, 0.08);
+    transform: translateY(-50%);
+    transition: all 0.36s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+    cursor: pointer;
+    content: " "; }
+  .toggle:active:after {
+    width: 24px; }
+  .toggle:active {
+    background-color: #d8dee5; }
+  .toggle > span.text {
+    line-height: 16px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 20px;
+    margin-right: 8px;
+    color: #ffffff; }
+    .toggle > span.text.checked {
+      margin-left: 8px;
+      margin-right: 20px; }

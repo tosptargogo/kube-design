@@ -1,0 +1,86 @@
+@charset "UTF-8";
+.notify-wrapper .notify {
+  position: fixed;
+  background-color: transparent;
+  padding: 0;
+  border: none;
+  top: 0;
+  z-index: 2010;
+  pointer-events: none; }
+  .notify-wrapper .notify .notice {
+    box-shadow: 0 8px 16px 0 rgba(72, 91, 127, 0.2);
+    width: 376px;
+    position: relative;
+    border-radius: 4px;
+    border: solid 1px #ffffff;
+    background-color: #ffffff;
+    margin: 10px 0 20px;
+    color: #4a5974;
+    pointer-events: auto; }
+    .notify-wrapper .notify .notice-error {
+      border-color: #ca2621; }
+      .notify-wrapper .notify .notice-error .notify-icon {
+        background-color: #ca2621; }
+      .notify-wrapper .notify .notice-error .notify-title {
+        color: #ca2621; }
+      .notify-wrapper .notify .notice-error .notice-close .kubed-icon {
+        color: #ca2621; }
+    .notify-wrapper .notify .notice-warning {
+      border-color: #f5a623; }
+      .notify-wrapper .notify .notice-warning .notify-icon {
+        background-color: #f5a623; }
+      .notify-wrapper .notify .notice-warning .notify-title {
+        color: #f5a623; }
+      .notify-wrapper .notify .notice-warning .notice-close .kubed-icon {
+        color: #f5a623; }
+    .notify-wrapper .notify .notice-success {
+      border-color: #55bc8a; }
+      .notify-wrapper .notify .notice-success .notify-icon {
+        background-color: #55bc8a; }
+      .notify-wrapper .notify .notice-success .notify-title {
+        color: #55bc8a; }
+      .notify-wrapper .notify .notice-success .notice-close .kubed-icon {
+        color: #55bc8a; }
+    .notify-wrapper .notify .notice-info {
+      border-color: #329dce; }
+      .notify-wrapper .notify .notice-info .notify-icon {
+        background-color: #329dce; }
+      .notify-wrapper .notify .notice-info .notify-title {
+        color: #329dce; }
+      .notify-wrapper .notify .notice-info .notice-close .kubed-icon {
+        color: #329dce; }
+
+.notify-wrapper .notify-with-icon {
+  position: relative; }
+  .notify-wrapper .notify-with-icon .notify-icon {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 56px;
+    text-align: center; }
+    .notify-wrapper .notify-with-icon .notify-icon .icon {
+      height: 100% !important; }
+  .notify-wrapper .notify-with-icon .notify-text {
+    height: 100%;
+    margin-left: 56px;
+    padding: 7px 16px; }
+  .notify-wrapper .notify-with-icon .notify-title {
+    font-weight: 500;
+    line-height: 20px;
+    padding-right: 40px; }
+  .notify-wrapper .notify-with-icon .notify-content {
+    font-family: Roboto, "PingFang SC", "Lantinghei SC", "Helvetica Neue", Helvetica, Arial, "Microsoft YaHei", 微软雅黑, STHeitiSC-Light, simsun, 宋体, "WenQuanYi Zen Hei", "WenQuanYi Micro Hei", sans-serif;
+    font-weight: 600;
+    line-height: 20px;
+    color: #4a5974;
+    word-break: break-all;
+    white-space: normal; }
+
+.notify-wrapper .notice-close {
+  position: absolute;
+  top: 7px;
+  right: 8px;
+  height: 20px;
+  width: 20px;
+  cursor: pointer; }

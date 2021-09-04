@@ -1,0 +1,39 @@
+@charset "UTF-8";
+.alert {
+  display: flex;
+  padding: 12px;
+  border-radius: 4px; }
+  .alert-icon {
+    flex-shrink: 0; }
+  .alert-info {
+    background-color: #c7deef; }
+    .alert-info .alert-content {
+      color: #3385b0; }
+  .alert-error {
+    background-color: #fae7e5; }
+    .alert-error .alert-content {
+      color: #8c3231; }
+  .alert-warning {
+    background-color: #ffe1be; }
+    .alert-warning .alert-content {
+      color: #8d663e; }
+  .alert-default {
+    background-color: #f9fbfd; }
+    .alert-default .alert-content {
+      color: #242e42; }
+
+.alert-content {
+  font-family: "PingFang SC", "Lantinghei SC", "Helvetica Neue", Helvetica, Arial, "Microsoft YaHei", 微软雅黑, STHeitiSC-Light, simsun, 宋体, "WenQuanYi Zen Hei", "WenQuanYi Micro Hei", sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  color: #404e68; }
+
+.alert-title {
+  font-weight: 600; }
+
+.alert-icon {
+  margin-right: 12px; }

@@ -1,0 +1,23 @@
+.badge-wrapper {
+  position: relative;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content; }
+  .badge-wrapper > span.badge {
+    display: inline-block;
+    height: 20px;
+    padding: 0 8px;
+    border-radius: 12px;
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 20px; }
+    .badge-wrapper > span.badge:hover {
+      cursor: pointer; }
+    .badge-wrapper > span.badge.is-error {
+      background-color: #ca2621; }
+    .badge-wrapper > span.badge.is-success {
+      background-color: #55bc8a; }
+    .badge-wrapper > span.badge.is-warning {
+      background-color: #f5a623; }
+    .badge-wrapper > span.badge.is-default {
+      background-color: #79879c; }

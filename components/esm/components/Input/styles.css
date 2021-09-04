@@ -1,0 +1,83 @@
+@charset "UTF-8";
+input.input {
+  width: 376px;
+  height: 32px;
+  padding: 6px 12px;
+  border-radius: 4px;
+  border: solid 1px #abb4be;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  font-family: "PingFang SC", "Lantinghei SC", "Helvetica Neue", Helvetica, Arial, "Microsoft YaHei", 微软雅黑, STHeitiSC-Light, simsun, 宋体, "WenQuanYi Zen Hei", "WenQuanYi Micro Hei", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  color: #36435c;
+  transition: all 0.3s ease-in-out;
+  caret-color: #36435c;
+  outline: none; }
+  input.input::-moz-placeholder {
+    font-weight: 400;
+    color: #5f708a; }
+  input.input:-ms-input-placeholder {
+    font-weight: 400;
+    color: #5f708a; }
+  input.input::placeholder {
+    font-weight: 400;
+    color: #5f708a; }
+  input.input:not([readonly]):not([disabled]):hover {
+    border-color: #79879c; }
+  input.input:not([readonly]):not([disabled]):focus {
+    border-color: #55bc8a;
+    box-shadow: 0 4px 8px 0 rgba(85, 188, 138, 0.2); }
+  input.input[readonly], input.input[disabled] {
+    background-color: #eff4f9; }
+  input.input[readonly] {
+    cursor: initial; }
+  input.input[disabled] {
+    cursor: not-allowed; }
+
+.input-password {
+  position: relative;
+  width: 376px; }
+  .input-password.has-icons-right .icon.clickable {
+    opacity: 0.5;
+    pointer-events: auto; }
+    .input-password.has-icons-right .icon.clickable:hover {
+      opacity: 1; }
+  .input-password.has-icons-right .icon.is-right {
+    z-index: 5;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 12px; }
+
+.input-search {
+  position: relative; }
+  .input-search.has-icons-left .input {
+    padding-left: 40px; }
+  .input-search.has-icons-left .icon.is-left {
+    left: 12px; }
+  .input-search.has-icons-right .input {
+    padding-right: 40px; }
+  .input-search.has-icons-right .icon.is-right {
+    right: 12px; }
+  .input-search .icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 4; }
+  .input-search .input {
+    width: 100%;
+    border-radius: 18px;
+    border-color: transparent;
+    background-color: #eff4f9;
+    padding: 5px 12px; }
+    .input-search .input:not([readonly]):not([disabled]):hover {
+      border-color: #79879c; }
+    .input-search .input:not([readonly]):not([disabled]):focus, .input-search .input:not([readonly]):not([disabled]):active, .input-search .input:not([readonly]):not([disabled]):visited {
+      background-color: #ffffff;
+      border-color: #79879c;
+      box-shadow: none; }

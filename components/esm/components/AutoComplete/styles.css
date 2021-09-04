@@ -1,0 +1,24 @@
+.auto-complete-caret {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 12px; }
+
+.auto-complete-trigger {
+  position: absolute;
+  width: 100%;
+  height: 32px;
+  top: 0;
+  right: 0; }
+
+.auto-complete .dropdown-content {
+  max-height: 232px;
+  overflow-y: auto; }
+
+.auto-complete-content mark {
+  background-color: transparent;
+  color: #55bc8a; }
+
+.auto-complete-content .menu-item > span {
+  display: block;
+  word-break: break-all; }

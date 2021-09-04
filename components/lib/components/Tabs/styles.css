@@ -1,0 +1,70 @@
+@charset "UTF-8";
+.tabs-container {
+  display: flex;
+  flex-direction: column; }
+  .tabs-container .tabs {
+    position: relative; }
+    .tabs-container .tabs > ul {
+      background-color: #eff4f9; }
+      .tabs-container .tabs > ul > li {
+        display: inline-block;
+        font-family: "PingFang SC", "Lantinghei SC", "Helvetica Neue", Helvetica, Arial, "Microsoft YaHei", 微软雅黑, STHeitiSC-Light, simsun, 宋体, "WenQuanYi Zen Hei", "WenQuanYi Micro Hei", sans-serif;
+        font-size: 12px;
+        font-weight: 600;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.67;
+        letter-spacing: normal;
+        color: #36435c;
+        padding: 12px;
+        min-width: 120px;
+        cursor: pointer;
+        text-align: center; }
+        .tabs-container .tabs > ul > li:hover, .tabs-container .tabs > ul > li:active, .tabs-container .tabs > ul > li.is-active {
+          color: #55bc8a; }
+        .tabs-container .tabs > ul > li:active, .tabs-container .tabs > ul > li.is-active {
+          background-color: #ffffff; }
+        .tabs-container .tabs > ul > li.is-disabled {
+          opacity: 0.5;
+          color: #36435c;
+          cursor: not-allowed; }
+    .tabs-container .tabs.tabs-button > ul {
+      display: inline-block;
+      padding: 1px;
+      border: 1px solid #ccd3db;
+      border-radius: 16px;
+      background-color: #f9fbfd; }
+      .tabs-container .tabs.tabs-button > ul > li {
+        padding: 4px 12px;
+        border-radius: 14px; }
+        .tabs-container .tabs.tabs-button > ul > li:hover {
+          color: #36435c; }
+        .tabs-container .tabs.tabs-button > ul > li:active {
+          background-color: #36435c;
+          color: #ffffff; }
+        .tabs-container .tabs.tabs-button > ul > li.is-active {
+          background-color: #36435c;
+          border-color: #ffffff;
+          color: #ffffff; }
+
+.tab-content {
+  padding: 12px 0; }
+  .tab-content .tab-panel {
+    display: none; }
+    .tab-content .tab-panel.is-active {
+      display: block; }
+
+.tabs-container-vertical {
+  flex-direction: row;
+  border: 1px solid #ccd3db; }
+  .tabs-container-vertical .tabs {
+    min-width: 128px; }
+    .tabs-container-vertical .tabs > ul {
+      height: 100%;
+      border-right: 1px solid #ccd3db; }
+      .tabs-container-vertical .tabs > ul > li {
+        display: block;
+        padding: 12px;
+        border-bottom: 1px solid #ccd3db; }
+  .tabs-container-vertical .tab-content {
+    padding: 0 12px; }
